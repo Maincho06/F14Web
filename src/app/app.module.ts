@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-//Agora
+// Agora
 import { NgxAgoraModule, AgoraConfig } from 'ngx-agora';
 
 
