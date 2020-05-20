@@ -110,7 +110,7 @@ export class AppComponent {
   }
 
   /**
-   * Intenta cargar las trasmisiones A / V local creada en una sala de chat 
+   * Intenta cargar las trasmisiones A / V local creada en una sala de chat
    */
   publish(): void {
     this.client.publish(this.localStream, err => console.log('Publish local stream error: ' + err));
